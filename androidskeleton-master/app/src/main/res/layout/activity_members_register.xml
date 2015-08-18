@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_mdpi">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1" >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="125dp"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView2"
+            android:src="@drawable/logo_hdpi"
+            android:layout_centerInParent="true"
+            android:scaleType="center"
+            android:layout_marginTop="32dp" />
+
+        <TableRow
+            android:id="@+id/tableRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TableRow
+            android:id="@+id/tableRow14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/et_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="250dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/user"
+                android:hint="   Name"
+                android:layout_marginTop="11dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp" >
+
+            <EditText
+                android:id="@+id/et_email_reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/envelope"
+                android:hint="   Email" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/et_email_conf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:width="250dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/envelope"
+                android:hint="   Confirm Email"
+                android:layout_marginTop="11dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/et_pw_reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:width="250dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/lock"
+                android:hint="   Password"
+                android:layout_marginTop="11dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/et_pw_conf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:width="250dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/lock"
+                android:hint="   Confirm Password"
+                android:layout_marginTop="11dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_school"
+                android:dropDownWidth="150dp"
+                android:spinnerMode="dropdown" />
+
+            <!--<EditText
+                android:id="@+id/et_school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="250dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:hint="   School"
+                android:drawableLeft="@drawable/building"
+                android:drawableRight="@drawable/building"
+                android:layout_marginTop="11dp" />-->
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="25dip" >
+
+            <Button
+                android:id="@+id/btn_join"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="Join"
+                android:textColor="#FFF"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/orange_button" />
+
+
+        </TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+            android:singleLine="false"
+            android:text="@string/privacy"
+            android:id="@+id/textView2"
+            android:gravity="left"
+            android:textSize="17dp"
+            android:layout_margin="32dp"
+            android:layout_gravity="center"
+            android:textAlignment="center" />
+
+    </TableLayout>
+</RelativeLayout>

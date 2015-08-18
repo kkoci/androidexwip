@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_mdpi">
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:id="@+id/blackie"
+            android:background="@drawable/header"
+            android:layout_centerInParent="true"
+            android:scaleType="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME TO SHAIR LOOK"
+            android:id="@+id/WelcomeToShairlook"
+            android:textColor="#FFFFFF"
+            android:textSize="12dp"
+            android:layout_marginTop="-55dp"
+            android:layout_marginLeft="225dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/reddie"
+            android:background="@drawable/redline"
+            android:layout_centerInParent="true"
+            android:scaleType="center"/>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp">
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="25dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:text="@string/welcome"
+                android:gravity="center"
+                android:textSize="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="30dip"
+            android:paddingLeft="30dip">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="3dp"
+            android:id="@+id/redline"
+            android:background="@drawable/redline"
+            android:layout_centerInParent="true"
+            android:scaleType="center"
+            android:maxWidth="150dp"
+            android:minWidth="75dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="25dip"
+            android:layout_marginTop="40dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEE HOW IT WORKS"
+                android:id="@+id/seehow"
+                android:textSize="18dp"
+                android:layout_marginLeft="205dp"
+                android:textColor="#ffd3664c" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="220dp"
+            android:layout_height="match_parent">
+
+            <WebView
+                android:layout_width="470dp"
+                android:layout_height="340dp"
+                android:id="@+id/webView"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="85dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="85dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WHAT DO YOU WANT TO DO NEXT"
+                android:id="@+id/DoNext"
+                android:textAlignment="center"
+                android:textSize="28dp"
+                android:textColor="#ffd3664c"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp" />
+        </TableRow>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp">
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:id="@+id/completeprofile"
+                android:src="@drawable/completeprofile"
+                android:layout_marginLeft="75dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:id="@+id/gotoportfolio"
+                android:src="@drawable/gotoportfolio"
+                android:layout_marginLeft="65dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:id="@+id/findfriends"
+                android:src="@drawable/findfriends"
+                android:layout_marginLeft="65dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:id="@+id/readnews"
+                android:src="@drawable/readnews"
+                android:layout_marginLeft="65dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complete Profile"
+                android:id="@+id/completeprofiletext"
+                android:layout_marginLeft="53dp"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Go to Portfolio"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Find Friends"
+                android:id="@+id/textView13"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read News"
+                android:id="@+id/textView14"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="15dp" />
+        </LinearLayout>
+    </TableLayout>
+
+</LinearLayout>

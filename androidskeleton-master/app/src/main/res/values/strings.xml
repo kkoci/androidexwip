@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shairlook</string>
+    <string name="app_id">398519843674219</string>
+    <string name="action_settings">Configuracion</string>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <string name="sign_in_with_google">Register with Google+</string>
+    <string name="sign_in_with_facebook">Register with Facebook</string>
+    <string name="sign_in_with_twitter">Register with Twitter</string>
+    <string name="title_activity_main">AndroidSocialLoginTemplate</string>
+    <string name="title_section1">Sección 1</string>
+    <string name="title_section2">Sección 2</string>
+    <string name="title_section3">Revocar acceso</string>
+    <string name="title_section4">Salir</string>
+    <string name="navigation_drawer_open">Abrir navegacion</string>
+    <string name="navigation_drawer_close">Cerrar navegacion</string>
+    <string name="action_example">Acción TODO</string>
+    <string name="hello_blank_fragment1">Fragment  1</string>
+    <string name="hello_blank_fragment2">Fragment  2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_activity_blank_fragment_esborrar">MainActivityBlankFragmentEsborrar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="privacy">By joining the community you accept Shairlook
+                Terms of Use and Privacy Policy</string>
+    <string name="welcome">Lorem Ipsum is a simple dummy text <br/> By joining the community you accept Shairlook <br/>
+                Terms of Use and Privacy Policy</string>
+    
+    <string name="com_facebook_loginview_log_in_button">Register with Facebook</string>
+    <string name="com_facebook_loginview_log_out_button">Logout from facebook</string>
+
+</resources>
